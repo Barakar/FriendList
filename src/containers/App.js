@@ -4,14 +4,14 @@ import { Provider, connect } from 'react-redux';
 import configureStore from '../store/configureStore';
 import DevTools from './DevTools';
 import FriendListApp from './FriendListApp';  
-import { addFriend, deleteFriend, starFriend } from '../action/friendsActions';
 
 const store = configureStore();
+/*
 
 store.dispatch(addFriend('Barack Obama'));
 
 store.dispatch(starFriend(4));  
-
+*/
 export default class App extends Component {
 	render() {
 	    return (
